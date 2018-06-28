@@ -3,6 +3,9 @@ apply plugin: 'com.android.application'
 android {
     compileSdkVersion 27
     defaultConfig {
+        ndk {
+            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+        }
         applicationId "com.xy.computer.ahbot_robot"
         minSdkVersion 19
         targetSdkVersion 27
