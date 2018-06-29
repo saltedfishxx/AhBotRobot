@@ -1,14 +1,18 @@
 package com.xy.computer.ahbot_robot;
 
 import android.Manifest;
+import android.app.AlarmManager;
+import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.location.LocationListener;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
 import android.os.Build;
 import android.os.Bundle;
+import android.provider.CalendarContract;
 import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
@@ -22,6 +26,7 @@ import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.SimpleAdapter;
 import android.widget.TextView;
 
 import com.felipecsl.gifimageview.library.GifImageView;
@@ -39,8 +44,16 @@ import java.io.IOException;
 import java.io.InputStream;
 import java.nio.ByteBuffer;
 import java.nio.ByteOrder;
+import java.sql.Time;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.time.LocalTime;
+import java.time.format.DateTimeFormatter;
 import java.util.ArrayList;
+import java.util.Calendar;
+import java.util.Date;
 import java.util.List;
+import java.util.SimpleTimeZone;
 
 import ai.api.AIConfiguration;
 import ai.api.AIDataService;
@@ -54,6 +67,8 @@ import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.Response;
 
+import static android.app.AlarmManager.INTERVAL_HOUR;
+
 
 public class MainActivity extends AppCompatActivity {
     private GifImageView gifImageView;
@@ -61,12 +76,12 @@ public class MainActivity extends AppCompatActivity {
     int PERMISSION_ALL = 1;
     FirestoreHelper db;
     List<Medicine> medicines = new ArrayList<>();
+    Date date;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
 
         String[] PERMISSIONS = {Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO, Manifest.permission.CAMERA};
 
@@ -285,8 +300,6 @@ public class MainActivity extends AppCompatActivity {
                         responseText = speech;
                         Intent intent = new Intent(MainActivity.this, ScanActivity.class);
                         startActivity(intent);
-
-
                     }else if (speech.equalsIgnoreCase("add_function")){
                         aiRequest.setQuery("my email is vic2@mail.com");
                         try{
@@ -422,12 +435,10 @@ public class MainActivity extends AppCompatActivity {
 
 
     public void getMedicine(List<Medicine> medlist) {
-
-
-        // DisplayMedicine display = new DisplayMedicine();
         medicines = medlist;
-
     }
+
+
 
     public String showMedicine() {
         String s = "";
@@ -439,7 +450,7 @@ public class MainActivity extends AppCompatActivity {
                 s += "Number " + (i + 1) + ", " + medicine.getMedName() + ", with the dosage of " +
                         medicine.getMedAmount() + " tablets, " + medicine.getMedFrequency() + " times per day.";
             }
-            return "The medicines currently added are, " + s;
+            return "The medicines added from all the medical profiles are, " + s;
         } else {
             return "Sorry, you have not added any medicine";
         }
@@ -467,6 +478,51 @@ public class MainActivity extends AppCompatActivity {
             return dir.delete();
         } else {
             return false;
+        }
+    }
+
+    public void medicineReminder(){
+
+        for (Medicine item : medicines){
+            Calendar cal = Calendar.getInstance();
+            cal.set(Calendar.HOUR_OF_DAY,11);
+            cal.set(Calendar.MINUTE,0);
+            cal.set(Calendar.SECOND,0);
+            cal.set(Calendar.AM_PM, Calendar.AM);
+
+            date = cal.getTime();
+
+            int frequency = Integer.parseInt(item.getMedFrequency());
+            switch (frequency){
+                case 1:
+                    Intent intent = new Intent(MainActivity.this, AlarmReceiver.class);
+                    PendingIntent pendingIntent = PendingIntent.getBroadcast(MainActivity.this, 0,intent, PendingIntent.FLAG_UPDATE_CURRENT);
+                    AlarmManager am = (AlarmManager) MainActivity.this.getSystemService(MainActivity.this.ALARM_SERVICE);
+                    if (am != null) {
+                        am.setInexactRepeating(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(), AlarmManager.INTERVAL_DAY, pendingIntent);
+                    }
+                case 2:
+                    Intent intent1 = new Intent(MainActivity.this, AlarmReceiver.class);
+                    PendingIntent pendingIntent1 = PendingIntent.getBroadcast(MainActivity.this, 0,intent1, PendingIntent.FLAG_UPDATE_CURRENT);
+                    AlarmManager am1 = (AlarmManager) MainActivity.this.getSystemService(MainActivity.this.ALARM_SERVICE);
+                    if (am1 != null) {
+                        am1.setInexactRepeating(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(), AlarmManager.INTERVAL_HALF_DAY, pendingIntent1);
+                    }
+                case 3:
+                    Intent intent2 = new Intent(MainActivity.this, AlarmReceiver.class);
+                    PendingIntent pendingIntent2 = PendingIntent.getBroadcast(MainActivity.this, 0,intent2, PendingIntent.FLAG_UPDATE_CURRENT);
+                    AlarmManager am2 = (AlarmManager) MainActivity.this.getSystemService(MainActivity.this.ALARM_SERVICE);
+                    if (am2 != null) {
+                        am2.setInexactRepeating(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(), 4*AlarmManager.INTERVAL_HOUR, pendingIntent2);
+                    }
+                case 4:
+                    Intent intent3 = new Intent(MainActivity.this, AlarmReceiver.class);
+                    PendingIntent pendingIntent3 = PendingIntent.getBroadcast(MainActivity.this, 0,intent3, PendingIntent.FLAG_UPDATE_CURRENT);
+                    AlarmManager am3 = (AlarmManager) MainActivity.this.getSystemService(MainActivity.this.ALARM_SERVICE);
+                    if (am3 != null) {
+                        am3.setInexactRepeating(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(), 3*AlarmManager.INTERVAL_HOUR, pendingIntent3);
+                    }
+            }
         }
     }
 

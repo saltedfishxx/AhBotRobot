@@ -21,6 +21,23 @@
                     }
                 },
                 {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.0.0.aar\\52c529d4a53ab86a085131a507e74771\\res\\values-de\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "103",
+                        "endOffsets": "308"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4692",
+                        "endColumns": "107",
+                        "endOffsets": "4795"
+                    }
+                },
+                {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\20295c6106acdb1c6b8e56d413f51bfc\\res\\values-de\\values-de.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
@@ -30,11 +47,11 @@
                         "endOffsets": "205,303,415,501,606,721,798,874,956,1067,1170,1269,1380,1482,1589,1745,1847,1929"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,37",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,308,420,506,611,726,803,879,961,1072,1175,1274,1385,1487,1594,1750,4692",
+                        "startOffsets": "105,210,308,420,506,611,726,803,879,961,1072,1175,1274,1385,1487,1594,1750,4800",
                         "endColumns": "104,97,111,85,104,114,76,75,81,110,102,98,110,101,106,155,101,81",
-                        "endOffsets": "205,303,415,501,606,721,798,874,956,1067,1170,1269,1380,1482,1589,1745,1847,4769"
+                        "endOffsets": "205,303,415,501,606,721,798,874,956,1067,1170,1269,1380,1482,1589,1745,1847,4877"
                     }
                 },
                 {
@@ -64,11 +81,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "38",
+                        "startLines": "39",
                         "startColumns": "4",
-                        "startOffsets": "4774",
+                        "startOffsets": "4882",
                         "endColumns": "100",
-                        "endOffsets": "4870"
+                        "endOffsets": "4978"
                     }
                 }
             ]

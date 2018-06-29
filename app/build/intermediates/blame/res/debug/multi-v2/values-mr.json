@@ -4,6 +4,23 @@
             "outputFile": "D:\\user\\Android_Studio_Stuff\\AhBot_Robot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-mr\\values-mr.xml",
             "map": [
                 {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.0.0.aar\\52c529d4a53ab86a085131a507e74771\\res\\values-mr\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "99",
+                        "endOffsets": "304"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4510",
+                        "endColumns": "103",
+                        "endOffsets": "4609"
+                    }
+                },
+                {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\d739bb70b03580a6a86b759adad63334\\res\\values-mr\\values.xml",
                     "from": {
                         "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
@@ -30,11 +47,11 @@
                         "endOffsets": "211,317,424,514,615,730,807,885,965,1077,1179,1275,1384,1485,1600,1757,1862,1942"
                     },
                     "to": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,37",
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,38",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,216,322,429,519,620,735,812,890,970,1082,1184,1280,1389,1490,1605,1762,4510",
+                        "startOffsets": "105,216,322,429,519,620,735,812,890,970,1082,1184,1280,1389,1490,1605,1762,4614",
                         "endColumns": "110,105,106,89,100,114,76,77,79,111,101,95,108,100,114,156,104,79",
-                        "endOffsets": "211,317,424,514,615,730,807,885,965,1077,1179,1275,1384,1485,1600,1757,1862,4585"
+                        "endOffsets": "211,317,424,514,615,730,807,885,965,1077,1179,1275,1384,1485,1600,1757,1862,4689"
                     }
                 },
                 {
@@ -47,11 +64,11 @@
                         "endOffsets": "151"
                     },
                     "to": {
-                        "startLines": "38",
+                        "startLines": "39",
                         "startColumns": "4",
-                        "startOffsets": "4590",
+                        "startOffsets": "4694",
                         "endColumns": "100",
-                        "endOffsets": "4686"
+                        "endOffsets": "4790"
                     }
                 },
                 {
