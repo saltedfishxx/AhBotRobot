@@ -2,22 +2,27 @@ package com.xy.computer.ahbot_robot;
 
 import android.Manifest;
 import android.app.AlarmManager;
+import android.app.Notification;
 import android.app.PendingIntent;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.drawable.BitmapDrawable;
 import android.location.LocationListener;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
 import android.media.MediaRecorder;
+import android.media.RingtoneManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.SystemClock;
 import android.provider.CalendarContract;
 import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
 import android.speech.tts.TextToSpeech;
 import android.support.v4.app.ActivityCompat;
+import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
@@ -493,52 +498,6 @@ public class MainActivity extends AppCompatActivity {
             return false;
         }
     }
-
-    public void medicineReminder(){
-
-        for (Medicine item : medicines){
-            Calendar cal = Calendar.getInstance();
-            cal.set(Calendar.HOUR_OF_DAY,11);
-            cal.set(Calendar.MINUTE,0);
-            cal.set(Calendar.SECOND,0);
-            cal.set(Calendar.AM_PM, Calendar.AM);
-
-            date = cal.getTime();
-
-            int frequency = Integer.parseInt(item.getMedFrequency());
-            switch (frequency){
-                case 1:
-                    Intent intent = new Intent(MainActivity.this, AlarmReceiver.class);
-                    PendingIntent pendingIntent = PendingIntent.getBroadcast(MainActivity.this, 0,intent, PendingIntent.FLAG_UPDATE_CURRENT);
-                    AlarmManager am = (AlarmManager) MainActivity.this.getSystemService(MainActivity.this.ALARM_SERVICE);
-                    if (am != null) {
-                        am.setInexactRepeating(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(), AlarmManager.INTERVAL_DAY, pendingIntent);
-                    }
-                case 2:
-                    Intent intent1 = new Intent(MainActivity.this, AlarmReceiver.class);
-                    PendingIntent pendingIntent1 = PendingIntent.getBroadcast(MainActivity.this, 0,intent1, PendingIntent.FLAG_UPDATE_CURRENT);
-                    AlarmManager am1 = (AlarmManager) MainActivity.this.getSystemService(MainActivity.this.ALARM_SERVICE);
-                    if (am1 != null) {
-                        am1.setInexactRepeating(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(), AlarmManager.INTERVAL_HALF_DAY, pendingIntent1);
-                    }
-                case 3:
-                    Intent intent2 = new Intent(MainActivity.this, AlarmReceiver.class);
-                    PendingIntent pendingIntent2 = PendingIntent.getBroadcast(MainActivity.this, 0,intent2, PendingIntent.FLAG_UPDATE_CURRENT);
-                    AlarmManager am2 = (AlarmManager) MainActivity.this.getSystemService(MainActivity.this.ALARM_SERVICE);
-                    if (am2 != null) {
-                        am2.setInexactRepeating(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(), 4*AlarmManager.INTERVAL_HOUR, pendingIntent2);
-                    }
-                case 4:
-                    Intent intent3 = new Intent(MainActivity.this, AlarmReceiver.class);
-                    PendingIntent pendingIntent3 = PendingIntent.getBroadcast(MainActivity.this, 0,intent3, PendingIntent.FLAG_UPDATE_CURRENT);
-                    AlarmManager am3 = (AlarmManager) MainActivity.this.getSystemService(MainActivity.this.ALARM_SERVICE);
-                    if (am3 != null) {
-                        am3.setInexactRepeating(AlarmManager.RTC_WAKEUP, cal.getTimeInMillis(), 3*AlarmManager.INTERVAL_HOUR, pendingIntent3);
-                    }
-            }
-        }
-    }
-
 
     @Override
     protected void onDestroy() {

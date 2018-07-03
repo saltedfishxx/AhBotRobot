@@ -6,6 +6,8 @@ var registrationToken = "edmRFYXvPYU:APA91bFbpX-afHjUJJB18d_5DVcu-gSxZzK5Cwnnf90
 
 
 firebase.initializeApp(functions.config().firestore);
+
+var firestore = firebase.firestore();
 exports.sendFoodNotification = functions.firestore.document("NotificationList/{foodrecipes}").onCreate((snap, context) => {
   console.log('notification triggerd');
   var payload = {
