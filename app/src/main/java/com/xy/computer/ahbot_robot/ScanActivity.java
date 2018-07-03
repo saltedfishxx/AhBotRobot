@@ -104,8 +104,9 @@ public class ScanActivity extends AppCompatActivity {
                     Medicine medicine = new Medicine(id, array[0], array[1], array[2], array[3]);
 
                     db.saveData(medicine);
-
                     finish();
+                    cameraSource.release();
+                    barcode.release();
                 }
             }
         });
@@ -117,7 +118,6 @@ public class ScanActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
-        cameraSource.release();
-        barcode.release();
+
     }
 }

@@ -32,14 +32,22 @@ import android.widget.TextView;
 import com.felipecsl.gifimageview.library.GifImageView;
 import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.common.util.IOUtils;
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.FirebaseOptions;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.messaging.FirebaseMessaging;
+
+import com.google.firebase.messaging.RemoteMessage;
 import com.xy.computer.ahbot_robot.FireStore.FirestoreHelper;
+import com.xy.computer.ahbot_robot.FireStore.NotificationFireStore;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.ByteBuffer;
@@ -75,6 +83,7 @@ public class MainActivity extends AppCompatActivity {
     private static final String TAG = "Error:";
     int PERMISSION_ALL = 1;
     FirestoreHelper db;
+    NotificationFireStore ndb;
     List<Medicine> medicines = new ArrayList<>();
     Date date;
 
@@ -90,10 +99,9 @@ public class MainActivity extends AppCompatActivity {
         }
         db = new FirestoreHelper(this);
         db.storeMedicine(this);
+        ndb = new NotificationFireStore(this);
 
-
-        gifImageView = (GifImageView)findViewById(R.id.splash);
-
+        gifImageView = (GifImageView) findViewById(R.id.splash);
 
         //Set GifImageView resource
         try{
@@ -300,6 +308,8 @@ public class MainActivity extends AppCompatActivity {
                         responseText = speech;
                         Intent intent = new Intent(MainActivity.this, ScanActivity.class);
                         startActivity(intent);
+                    }else if (speech.equalsIgnoreCase("recipe_notification")){
+                        responseText = sendRecipeNoti();
                     }else if (speech.equalsIgnoreCase("add_function")){
                         aiRequest.setQuery("my email is vic2@mail.com");
                         try{
@@ -433,12 +443,15 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public String sendRecipeNoti(){
+        ndb.saveData("Check your recipe here now!");
+
+        return "I have send a signal to your phone. Open the application, to view the latest recipes.";
+    }
 
     public void getMedicine(List<Medicine> medlist) {
         medicines = medlist;
     }
-
-
 
     public String showMedicine() {
         String s = "";
@@ -450,7 +463,7 @@ public class MainActivity extends AppCompatActivity {
                 s += "Number " + (i + 1) + ", " + medicine.getMedName() + ", with the dosage of " +
                         medicine.getMedAmount() + " tablets, " + medicine.getMedFrequency() + " times per day.";
             }
-            return "The medicines added from all the medical profiles are, " + s;
+            return "The medicines from all the medical profiles are, " + s;
         } else {
             return "Sorry, you have not added any medicine";
         }
