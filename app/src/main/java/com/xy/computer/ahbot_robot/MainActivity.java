@@ -4,18 +4,21 @@ import android.Manifest;
 import android.app.AlarmManager;
 import android.app.Notification;
 import android.app.PendingIntent;
+import android.app.Service;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.graphics.drawable.BitmapDrawable;
 import android.location.LocationListener;
 import android.media.AudioFormat;
+import android.media.AudioManager;
 import android.media.AudioRecord;
 import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.media.RingtoneManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.os.IBinder;
 import android.os.SystemClock;
 import android.provider.CalendarContract;
 import android.provider.Settings;
@@ -23,6 +26,7 @@ import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
 import android.speech.tts.TextToSpeech;
+import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
 import android.support.v4.app.NotificationCompat;
 import android.support.v4.content.ContextCompat;
@@ -68,6 +72,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.Date;
 import java.util.List;
+import java.util.Random;
 import java.util.SimpleTimeZone;
 
 import ai.api.AIConfiguration;
@@ -315,6 +320,9 @@ public class MainActivity extends AppCompatActivity {
                         responseText = speech;
                         Intent intent = new Intent(MainActivity.this, ScanActivity.class);
                         startActivity(intent);
+                    }else if(speech.equalsIgnoreCase("playing music")){
+                        responseText=speech;
+                        startService(new Intent(MainActivity.this,BackGroundMusic.class));
                     }else if (speech.equalsIgnoreCase("recipe_notification")){
                         responseText = sendRecipeNoti();
                     }else if (speech.equalsIgnoreCase("add_function")){
@@ -522,6 +530,60 @@ public class MainActivity extends AppCompatActivity {
         super.onDestroy();
     }
 
+    public static class BackGroundMusic extends Service {
+        MediaPlayer mediaPlayer;
+        AudioManager audioManager;
+        int Volume;
+        public BackGroundMusic(){}
+
+        @Nullable
+        @Override
+        public IBinder onBind(Intent intent) {
+            return null;
+        }
+
+        @Override
+        public int onStartCommand(Intent intent, int flags, int startId) {
+
+            Random random=new Random();
+            int id= (random.nextInt(5)+1);
+            switch (id){
+                case 1:
+                    mediaPlayer = MediaPlayer.create(this, R.raw.tune1);
+                    break;
+                case 2:
+                    mediaPlayer = MediaPlayer.create(this, R.raw.tune2);
+                    break;
+                case 3:
+                    mediaPlayer = MediaPlayer.create(this, R.raw.tune3);
+                    break;
+                case 4:
+                    mediaPlayer = MediaPlayer.create(this, R.raw.tune4);
+                    break;
+                case 5:
+                    mediaPlayer = MediaPlayer.create(this, R.raw.tune5);
+                    break;
+            }
+            mediaPlayer.start();
+            return super.onStartCommand(intent, flags, startId);
+        }
+
+
+        @Override
+        public boolean stopService(Intent name) {
+
+            return super.stopService(name);
+        }
+
+        @Override
+        public void onDestroy() {
+            super.onDestroy();
+            mediaPlayer.stop();
+            mediaPlayer.release();
+            mediaPlayer = null;
+
+        }
+    }
 }
 
 

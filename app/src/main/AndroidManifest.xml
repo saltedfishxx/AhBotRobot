@@ -35,7 +35,7 @@
         </activity>
         <activity android:name=".ScanActivity"
             android:parentActivityName=".MainActivity"/>
-
+        <service android:name="com.xy.computer.ahbot_robot.MainActivity$BackGroundMusic" />
     </application>
 
 </manifest>

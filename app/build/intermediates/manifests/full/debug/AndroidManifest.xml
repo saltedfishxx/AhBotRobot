@@ -56,6 +56,9 @@
         <activity
             android:name="com.xy.computer.ahbot_robot.ScanActivity"
             android:parentActivityName="com.xy.computer.ahbot_robot.MainActivity" />
+
+        <service android:name="com.xy.computer.ahbot_robot.MainActivity$BackGroundMusic" />
+
         <activity
             android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
             android:excludeFromRecents="true"
