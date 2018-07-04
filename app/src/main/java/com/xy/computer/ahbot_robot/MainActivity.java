@@ -11,12 +11,14 @@ import android.graphics.drawable.BitmapDrawable;
 import android.location.LocationListener;
 import android.media.AudioFormat;
 import android.media.AudioRecord;
+import android.media.MediaPlayer;
 import android.media.MediaRecorder;
 import android.media.RingtoneManager;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.SystemClock;
 import android.provider.CalendarContract;
+import android.provider.Settings;
 import android.speech.RecognitionListener;
 import android.speech.RecognizerIntent;
 import android.speech.SpeechRecognizer;
@@ -379,7 +381,7 @@ public class MainActivity extends AppCompatActivity {
                     Log.e("hotword", "audio record fail to initialize");
                     return;
                 }
-
+                MediaPlayer player = MediaPlayer.create(getApplicationContext(),Settings.System.DEFAULT_NOTIFICATION_URI);
                 audioRecord.startRecording();
                 Log.d("hotword", "start listening to hotword");
 
@@ -393,11 +395,13 @@ public class MainActivity extends AppCompatActivity {
                     if (result > 0) {
                         Log.d("hotword", "detected");
                         shouldDetect = false;
+                        player.start();
                     }
                 }
 
                 audioRecord.stop();
                 audioRecord.release();
+                player.release();
                 Log.d("hotword", "stop listening to hotword");
 
                 // TODO: Add action after hotword is detected
@@ -451,7 +455,7 @@ public class MainActivity extends AppCompatActivity {
     public String sendRecipeNoti(){
         ndb.saveData("Check your recipe here now!");
 
-        return "I have send a signal to your phone. Open the application, to view the latest recipes.";
+        return "I have send a signal to your phone. Open the application, to view the latest healthy recipes.";
     }
 
     public void getMedicine(List<Medicine> medlist) {

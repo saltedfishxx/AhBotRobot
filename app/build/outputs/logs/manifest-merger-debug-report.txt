@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-42:12
+ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-41:12
 MERGED from [com.android.support:multidex:1.0.3] C:\Users\user\.gradle\caches\transforms-1\files-1.1\multidex-1.0.3.aar\9903ff5661665cfe6850e8ee6b0fafa5\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:design:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\43f89d7b77eba9b3c823b34c8dd80b8f\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\user\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\20295c6106acdb1c6b8e56d413f51bfc\AndroidManifest.xml:17:1-22:12
@@ -53,20 +53,20 @@ MERGED from [android.arch.core:runtime:1.1.0] C:\Users\user\.gradle\caches\trans
 MERGED from [com.google.firebase:protolite-well-known-types:15.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\protolite-well-known-types-15.0.0.aar\0f43264b3cc404b514cf7c4d8ab5f19d\AndroidManifest.xml:2:1-11:12
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\8da41dd9805eb88539229d7aa11aefee\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Users\user\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-16.0.0.aar\27a5702f970f7dd1f2c882e5c1db3a1e\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-42:12
-INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-42:12
+INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-41:12
+INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-41:12
 	package
 		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:3:5-42
 		INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml
 		INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-42:12
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:1-41:12
 		INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:2:11-69
@@ -101,7 +101,7 @@ ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest
 	android:name
 		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:9:22-62
 application
-ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:11:5-40:19
+ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:11:5-39:19
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\73f1725be597dbe4d16a3629668b276f\AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.2.aar\73f1725be597dbe4d16a3629668b276f\AndroidManifest.xml:9:5-20
 MERGED from [com.google.firebase:firebase-auth:16.0.2] C:\Users\user\.gradle\caches\transforms-1\files-1.1\firebase-auth-16.0.2.aar\8d5e5abf7fa37a7fe83307d3a51f8d3e\AndroidManifest.xml:22:5-36:19
@@ -164,50 +164,46 @@ MERGED from [com.google.android.gms:play-services-measurement-base:16.0.0] C:\Us
 		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:12:9-35
 	android:theme
 		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:17:9-40
-receiver#com.xy.computer.ahbot_robot.AlarmReceiver
-ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:18:9-50
-	android:name
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:18:19-48
 meta-data#com.google.android.gms.vision.DEPENDENCIES
-ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:20:9-22:39
+ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:19:9-21:39
 	android:value
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:22:13-36
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:21:13-36
 	android:name
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:21:13-70
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:20:13-70
 meta-data#com.google.firebase.ml.vision.DEPENDENCIES
-ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:23:9-25:39
+ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:22:9-24:39
 	android:value
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:25:13-36
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:24:13-70
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:23:13-70
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:26:9-28:44
+ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:25:9-27:44
 	android:value
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:28:13-42
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:27:13-42
 	android:name
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:27:13-59
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:26:13-59
 activity#com.xy.computer.ahbot_robot.MainActivity
-ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:29:9-36:20
+ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:28:9-35:20
 	android:theme
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:30:13-63
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:29:13-63
 	android:name
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:29:19-47
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:28:19-47
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:31:13-35:29
+ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:30:13-34:29
 action#android.intent.action.MAIN
-ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:32:17-69
+ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:31:17-69
 	android:name
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:32:25-66
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:31:25-66
 category#android.intent.category.LAUNCHER
-ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:34:17-77
+ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:33:17-77
 	android:name
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:34:27-74
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:33:27-74
 activity#com.xy.computer.ahbot_robot.ScanActivity
-ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:37:9-38:57
+ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:36:9-37:57
 	android:parentActivityName
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:38:13-55
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:37:13-55
 	android:name
-		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:37:19-47
+		ADDED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml:36:19-47
 uses-sdk
 INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\user\Android_Studio_Stuff\AhBot_Robot\app\src\main\AndroidManifest.xml
