@@ -1,61 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\clair\\OneDrive\\Documents\\YR 2 SEM1\\splash\\AhBotRobot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
+            "outputFile": "D:\\user\\Android_Studio_Stuff\\AhBot_Robot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-gl\\values-gl.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\clair\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.1.0.aar\\f179654e80bb93f6671cdd2103cc6827\\res\\values-gl\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "205",
-                        "endColumns": "100",
-                        "endOffsets": "305"
-                    },
-                    "to": {
-                        "startLines": "37",
-                        "startColumns": "4",
-                        "startOffsets": "4660",
-                        "endColumns": "104",
-                        "endOffsets": "4760"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\clair\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\4849a796dc725ed851582d11aa7e50e2\\res\\values-gl\\values-gl.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "100",
-                        "endOffsets": "151"
-                    },
-                    "to": {
-                        "startLines": "39",
-                        "startColumns": "4",
-                        "startOffsets": "4847",
-                        "endColumns": "100",
-                        "endOffsets": "4943"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\clair\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\ba44b81a5805a072ce9b1b30e36f137b\\res\\values-gl\\values.xml",
-                    "from": {
-                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
-                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
-                        "startOffsets": "245,349,544,671,777,995,1125,1270,1404,1634,1741,1941,2074,2298,2476,2569,2664",
-                        "endColumns": "103,194,126,105,217,129,144,133,229,106,199,132,223,177,92,94,109",
-                        "endOffsets": "348,543,670,776,994,1124,1269,1403,1633,1740,1940,2073,2297,2475,2568,2663,2773"
-                    },
-                    "to": {
-                        "startLines": "19,20,21,22,23,24,25,26,28,29,30,31,32,33,34,35,36",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "1890,1998,2193,2324,2434,2652,2786,2935,3266,3496,3607,3807,3944,4168,4350,4447,4546",
-                        "endColumns": "107,194,130,109,217,133,148,137,229,110,199,136,223,181,96,98,113",
-                        "endOffsets": "1993,2188,2319,2429,2647,2781,2930,3068,3491,3602,3802,3939,4163,4345,4442,4541,4655"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\clair\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\2f72434abe69f50d90b0b6034a83f677\\res\\values-gl\\values.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-basement-15.0.1.aar\\8c05f2e13b8326ee61e4a55c9739256f\\res\\values-gl\\values.xml",
                     "from": {
                         "startLines": "4",
                         "startColumns": "0",
@@ -72,7 +21,58 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\clair\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\c5a4945d91baed18a1210c47f806fb41\\res\\values-gl\\values-gl.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\759cd9e06edbfa6313a535fb2f0280f9\\res\\values-gl\\values-gl.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "39",
+                        "startColumns": "4",
+                        "startOffsets": "4847",
+                        "endColumns": "100",
+                        "endOffsets": "4943"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.1.0.aar\\8d738f5aa01585ebe7ae5254d77b5e10\\res\\values-gl\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "205",
+                        "endColumns": "100",
+                        "endOffsets": "305"
+                    },
+                    "to": {
+                        "startLines": "37",
+                        "startColumns": "4",
+                        "startOffsets": "4660",
+                        "endColumns": "104",
+                        "endOffsets": "4760"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-15.0.1.aar\\d739bb70b03580a6a86b759adad63334\\res\\values-gl\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20",
+                        "startColumns": "0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0",
+                        "startOffsets": "245,349,544,671,777,995,1125,1270,1404,1634,1741,1941,2074,2298,2476,2569,2664",
+                        "endColumns": "103,194,126,105,217,129,144,133,229,106,199,132,223,177,92,94,109",
+                        "endOffsets": "348,543,670,776,994,1124,1269,1403,1633,1740,1940,2073,2297,2475,2568,2663,2773"
+                    },
+                    "to": {
+                        "startLines": "19,20,21,22,23,24,25,26,28,29,30,31,32,33,34,35,36",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "1890,1998,2193,2324,2434,2652,2786,2935,3266,3496,3607,3807,3944,4168,4350,4447,4546",
+                        "endColumns": "107,194,130,109,217,133,148,137,229,110,199,136,223,181,96,98,113",
+                        "endOffsets": "1993,2188,2319,2429,2647,2781,2930,3068,3491,3602,3802,3939,4163,4345,4442,4541,4655"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\20295c6106acdb1c6b8e56d413f51bfc\\res\\values-gl\\values-gl.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

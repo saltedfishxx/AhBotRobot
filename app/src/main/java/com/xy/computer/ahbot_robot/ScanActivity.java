@@ -1,4 +1,4 @@
-package com.xy.computer.ahbot_robot;
+/*package com.xy.computer.ahbot_robot;
 
 import android.Manifest;
 import android.content.pm.PackageManager;
@@ -121,3 +121,4 @@ public class ScanActivity extends AppCompatActivity {
 
     }
 }
+*/

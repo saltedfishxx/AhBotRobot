@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\clair\\OneDrive\\Documents\\YR 2 SEM1\\splash\\AhBotRobot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
+            "outputFile": "D:\\user\\Android_Studio_Stuff\\AhBot_Robot\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-xlarge-v4\\values-xlarge-v4.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\clair\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\c5a4945d91baed18a1210c47f806fb41\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\20295c6106acdb1c6b8e56d413f51bfc\\res\\values-xlarge-v4\\values-xlarge-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7",
                         "startColumns": "4,4,4,4,4,4",

@@ -1,6 +1,7 @@
 package com.xy.computer.ahbot_robot;
 
 import android.Manifest;
+import android.app.Activity;
 import android.app.AlarmManager;
 import android.app.Notification;
 import android.app.PendingIntent;
@@ -39,9 +40,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.SimpleAdapter;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.felipecsl.gifimageview.library.GifImageView;
-import com.google.android.gms.auth.api.signin.GoogleSignInClient;
 import com.google.android.gms.common.util.IOUtils;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
@@ -49,6 +50,8 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.messaging.FirebaseMessaging;
 
 import com.google.firebase.messaging.RemoteMessage;
+import com.google.zxing.integration.android.IntentIntegrator;
+import com.google.zxing.integration.android.IntentResult;
 import com.xy.computer.ahbot_robot.FireStore.FirestoreHelper;
 import com.xy.computer.ahbot_robot.FireStore.NotificationFireStore;
 
@@ -317,10 +320,9 @@ public class MainActivity extends AppCompatActivity {
                     } else if (speech.equalsIgnoreCase("medicine_function")) {
                         responseText = showMedicine();
                     } else if (speech.equalsIgnoreCase("okay")) {
-                        responseText = speech;
-                        Intent intent = new Intent(MainActivity.this, ScanActivity.class);
-                        startActivity(intent);
+                        responseText = scanQRcode();
                     }else if(speech.equalsIgnoreCase("playing music")){
+                        shouldDetect=false;
                         responseText=speech;
                         startService(new Intent(MainActivity.this,BackGroundMusic.class));
                     }else if (speech.equalsIgnoreCase("recipe_notification")){
@@ -458,6 +460,39 @@ public class MainActivity extends AppCompatActivity {
         return "No weather info";
 
 
+    }
+
+    public String scanQRcode(){
+        final Activity activity = this;
+        IntentIntegrator integrator = new IntentIntegrator(activity);
+        integrator.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE);
+        integrator.setPrompt("Scan");
+        integrator.setCameraId(0);
+        integrator.setBeepEnabled(false);
+        integrator.setBarcodeImageEnabled(false);
+        integrator.initiateScan();
+        return "Scanning!";
+    }
+
+    @Override
+    protected void onActivityResult(int requestCode, int resultCode, Intent data) {
+
+        IntentResult result = IntentIntegrator.parseActivityResult(requestCode,resultCode,data);
+        if(result!=null){
+            if(result.getContents()==null){
+               Log.d("note","Scanning cancelled");
+            }else {
+                String content = result.getContents();
+                String[] array = content.split("_");
+                String id="";
+                Medicine medicine = new Medicine(id, array[0], array[1], array[2], array[3]);
+
+                db.saveData(medicine);
+
+            }
+        }else {
+            super.onActivityResult(requestCode,resultCode,data);
+        }
     }
 
     public String sendRecipeNoti(){

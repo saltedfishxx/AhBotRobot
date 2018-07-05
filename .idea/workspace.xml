@@ -9,6 +9,7 @@
     <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
   </component>
   <component name="ChangeListManager">
+<<<<<<< Updated upstream
     <list default="true" id="57bc4bf0-9895-473e-b2bd-242a13ad6221" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" />
@@ -1085,6 +1086,9 @@
       <change beforePath="$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MainActivity.java" />
       <change beforePath="$PROJECT_DIR$/local.properties" afterPath="$PROJECT_DIR$/local.properties" />
     </list>
+=======
+    <list default="true" id="f78b372c-b0bc-4ced-bd80-61175b3f03f3" name="Default" comment="" />
+>>>>>>> Stashed changes
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -1098,6 +1102,7 @@
     </projectState>
   </component>
   <component name="FileEditorManager">
+<<<<<<< Updated upstream
     <leaf>
       <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MainActivity.java">
@@ -1107,26 +1112,259 @@
               <folding>
                 <element signature="e#19069#19070#0" expanded="true" />
                 <element signature="e#19104#19105#0" expanded="true" />
+=======
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="FirestoreHelper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/FireStore/FirestoreHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="80">
+              <caret line="126" column="41" lean-forward="false" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MainActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MainActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-240">
+              <caret line="473" column="50" lean-forward="false" selection-start-line="473" selection-start-column="50" selection-end-line="473" selection-end-column="50" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#17627#17628#0" expanded="true" />
+                <element signature="e#17662#17663#0" expanded="true" />
+>>>>>>> Stashed changes
               </folding>
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< Updated upstream
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+=======
+      <file leaf-file-name="ScanActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/ScanActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="105" column="42" lean-forward="false" selection-start-line="101" selection-start-column="19" selection-end-line="105" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="409">
+              <caret line="45" column="40" lean-forward="false" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Medicine.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/Medicine.java">
+>>>>>>> Stashed changes
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="648">
               <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
+<<<<<<< Updated upstream
           <provider editor-type-id="android-manifest">
             <state />
+=======
+        </entry>
+      </file>
+      <file leaf-file-name="NotificationFireStore.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/FireStore/NotificationFireStore.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#620#621#0" expanded="true" />
+                <element signature="e#656#657#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zzu.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/93938b8d7a4068c40e3d89d61e6624c4/jars/classes.jar!/com/google/android/gms/tasks/zzu.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1880">
+              <caret line="112" column="86" lean-forward="false" selection-start-line="112" selection-start-column="86" selection-end-line="112" selection-end-column="86" />
+              <folding>
+                <marker date="1530179696063" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1530179696063" expanded="false" signature="152:754" ph="..." />
+                <marker date="1530179696063" expanded="true" signature="1103:1110" ph="{}" />
+                <marker date="1530179696063" expanded="true" signature="1150:1267" ph="{...}" />
+                <marker date="1530179696063" expanded="false" signature="1306:1317" ph=" { " />
+                <marker date="1530179696063" expanded="false" signature="1334:1340" ph=" }" />
+                <marker date="1530179696063" expanded="true" signature="1382:1535" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="1574:1883" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="1975:2394" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="2452:2569" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="2686:2768" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="2909:3003" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="3144:3321" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="3421:3503" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="3627:3721" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="3845:4022" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="4133:4216" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="4351:4445" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="4580:4757" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="4908:4982" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="5157:5287" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="5448:5526" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="5628:5711" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="5837:5931" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="6057:6234" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="6419:6549" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="6714:6844" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="7003:7078" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="7126:7330" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="7384:7659" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="7721:7997" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="8065:8412" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="8446:8720" ph="{...}" />
+                <marker date="1530179696063" expanded="false" signature="8775:8786" ph=" { " />
+                <marker date="1530179696063" expanded="false" signature="8851:8857" ph=" }" />
+                <marker date="1530179696063" expanded="false" signature="8912:8923" ph=" { " />
+                <marker date="1530179696063" expanded="false" signature="8989:8995" ph=" }" />
+                <marker date="1530179696063" expanded="true" signature="9051:9167" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="9199:9385" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="9442:10699" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="9569:9851" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="9897:10010" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="10059:10216" ph="{...}" />
+                <marker date="1530179696063" expanded="true" signature="10267:10693" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CollectionReference.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.0.2.aar/ec7c097a55c222136017bcb15621b39c/jars/classes.jar!/com/google/firebase/firestore/CollectionReference.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="640">
+              <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+              <folding>
+                <marker date="1530541076809" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1530541076809" expanded="false" signature="153:551" ph="..." />
+                <marker date="1530541076809" expanded="true" signature="665:939" ph="{...}" />
+                <marker date="1530541076809" expanded="false" signature="979:990" ph=" { " />
+                <marker date="1530541076809" expanded="false" signature="1018:1024" ph=" }" />
+                <marker date="1530541076809" expanded="true" signature="1081:1219" ph="{...}" />
+                <marker date="1530541076809" expanded="false" signature="1261:1272" ph=" { " />
+                <marker date="1530541076809" expanded="false" signature="1300:1306" ph=" }" />
+                <marker date="1530541076809" expanded="false" signature="1360:1371" ph=" { " />
+                <marker date="1530541076809" expanded="false" signature="1403:1409" ph=" }" />
+                <marker date="1530541076809" expanded="true" signature="1492:1693" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="1782:1986" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="2062:2128" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zzl.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.0.2.aar/ec7c097a55c222136017bcb15621b39c/jars/classes.jar!/com/google/firebase/firestore/d/zzl.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="280">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <marker date="1530541076809" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1530541076809" expanded="false" signature="155:228" ph="..." />
+                <marker date="1530541076809" expanded="false" signature="375:386" ph=" { " />
+                <marker date="1530541076809" expanded="false" signature="398:404" ph=" }" />
+                <marker date="1530541076809" expanded="false" signature="450:461" ph=" { " />
+                <marker date="1530541076809" expanded="false" signature="505:511" ph=" }" />
+                <marker date="1530541076809" expanded="true" signature="552:1123" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="1155:1446" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="zzx.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.0.2.aar/ec7c097a55c222136017bcb15621b39c/jars/classes.jar!/com/google/firebase/firestore/b/zzx.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="680">
+              <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+              <folding>
+                <marker date="1530541076809" expanded="false" signature="0:104" ph="/.../" />
+                <marker date="1530541076809" expanded="false" signature="155:475" ph="..." />
+                <marker date="1530541076809" expanded="true" signature="935:1113" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="1287:1444" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="1472:1483" ph=" { " />
+                <marker date="1530541076809" expanded="true" signature="1499:1505" ph=" }" />
+                <marker date="1530541076809" expanded="true" signature="1538:1633" ph="{...}" />
+                <marker date="1530541076809" expanded="false" signature="1667:1678" ph=" { " />
+                <marker date="1530541076809" expanded="false" signature="1694:1700" ph=" }" />
+                <marker date="1530541076809" expanded="true" signature="1730:1866" ph="{...}" />
+                <marker date="1530541076809" expanded="false" signature="1898:1909" ph=" { " />
+                <marker date="1530541076809" expanded="false" signature="1932:1938" ph=" }" />
+                <marker date="1530541076809" expanded="false" signature="2012:2023" ph=" { " />
+                <marker date="1530541076809" expanded="false" signature="2039:2045" ph=" }" />
+                <marker date="1530541076809" expanded="false" signature="2119:2130" ph=" { " />
+                <marker date="1530541076809" expanded="false" signature="2146:2152" ph=" }" />
+                <marker date="1530541076809" expanded="false" signature="2180:2191" ph=" { " />
+                <marker date="1530541076809" expanded="false" signature="2253:2259" ph=" }" />
+                <marker date="1530541076809" expanded="true" signature="2302:2604" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="2641:3430" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="3467:4114" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="4152:4239" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="4308:4395" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="4464:4551" ph="{...}" />
+                <marker date="1530541076809" expanded="false" signature="4585:4596" ph=" { " />
+                <marker date="1530541076809" expanded="false" signature="4612:4618" ph=" }" />
+                <marker date="1530541076809" expanded="true" signature="4653:5967" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="6008:7401" ph="{...}" />
+                <marker date="1530541076809" expanded="false" signature="7441:7452" ph=" { " />
+                <marker date="1530541076809" expanded="false" signature="7483:7489" ph=" }" />
+                <marker date="1530541076809" expanded="true" signature="7521:8483" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="8527:9580" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="9614:9967" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="10004:10823" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="10836:11061" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="11111:11642" ph="{...}" />
+                <marker date="1530541076809" expanded="true" signature="11179:11636" ph="{...}" />
+              </folding>
+            </state>
+>>>>>>> Stashed changes
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+<<<<<<< Updated upstream
+=======
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="valueResourceFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>medicine</find>
+      <find>medicine_fu</find>
+      <find>delete_med</find>
+      <find>add_</find>
+      <find>deleteDir</find>
+      <find>deleteCa</find>
+      <find>firestorehelper</find>
+      <find>hotwo</find>
+      <find>tts</find>
+    </findStrings>
+  </component>
+>>>>>>> Stashed changes
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -3167,14 +3405,31 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
+<<<<<<< Updated upstream
+=======
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/AlarmReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/FireStore/NotificationFireStore.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/WakefulReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/BootReceiver.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MyNotificationPublisher.java" />
+        <option value="$PROJECT_DIR$/app/build.gradle" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/ScanActivity.java" />
+>>>>>>> Stashed changes
         <option value="$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MainActivity.java" />
       </list>
     </option>
   </component>
+<<<<<<< Updated upstream
   <component name="ProjectFrameBounds">
     <option name="x" value="952" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
+=======
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="953" />
+    <option name="width" value="974" />
+    <option name="height" value="1044" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -3192,7 +3447,47 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< Updated upstream
       <pane id="AndroidView">
+=======
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView">
+        <subPane>
+          <expand>
+            <path>
+              <item name="AhBot_Robot" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="AhBot_Robot" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="AhBot_Robot" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="ahbot_robot" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AhBot_Robot" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="java" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="ahbot_robot" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="FireStore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AhBot_Robot" type="1abcf292:AndroidViewProjectNode" />
+              <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+>>>>>>> Stashed changes
         <subPane>
           <expand>
             <path>
@@ -3244,20 +3539,26 @@
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
             </path>
+<<<<<<< Updated upstream
             <path>
               <item name="AhBotRobot" type="1abcf292:AndroidViewProjectNode" />
               <item name="app" type="feadf853:AndroidModuleNode" />
               <item name="res" type="d4f16f75:AndroidResFolderNode" />
               <item name="raw" type="ddeffd01:AndroidResFolderTypeNode" />
             </path>
+=======
+>>>>>>> Stashed changes
           </expand>
           <select />
         </subPane>
       </pane>
+<<<<<<< Updated upstream
       <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane" />
+=======
+>>>>>>> Stashed changes
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3446,6 +3747,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="952" y="0" width="976" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
@@ -3471,6 +3773,33 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+=======
+    <frame x="953" y="0" width="974" height="1044" extended-state="1" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15853658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.014412417" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.11597374" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26125136" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+>>>>>>> Stashed changes
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -3479,6 +3808,42 @@
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+<<<<<<< Updated upstream
+=======
+    <layout-to-restore>
+      <window_info id="Android Profiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Logcat" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Assistant" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.03501094" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26125136" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Device File Explorer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39846322" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.15853658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.116204694" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.0449069" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+>>>>>>> Stashed changes
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -3490,17 +3855,125 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< Updated upstream
+=======
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" column="66" lean-forward="false" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MyFirebaseInstanceIDService.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4680">
+          <caret line="286" column="46" lean-forward="false" selection-start-line="286" selection-start-column="46" selection-end-line="286" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#17627#17628#0" expanded="true" />
+            <element signature="e#17662#17663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MyFirebaseMessagingService.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="43" column="66" lean-forward="false" selection-start-line="43" selection-start-column="66" selection-end-line="43" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MyFirebaseInstanceIDService.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4680">
+          <caret line="286" column="46" lean-forward="false" selection-start-line="286" selection-start-column="46" selection-end-line="286" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#17627#17628#0" expanded="true" />
+            <element signature="e#17662#17663#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MyFirebaseMessagingService.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MainActivity.java" />
+    <entry file="file://$PROJECT_DIR$/app/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/build.gradle" />
+    <entry file="file://$PROJECT_DIR$/app/google-services.json" />
+    <entry file="file://$PROJECT_DIR$/app/google-services.json" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/assets.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/snowboy/snowboyJNI.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/snowboy/SnowboyDetect.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/Threadings.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/snowboy/snowboyJNI.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/snowboy/SnowboyDetect.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ai/kitt/snowboy/snowboyJNI.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/ai/kitt/snowboy/SnowboyDetect.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_scan.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_main.xml" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/SnowboyUtils.java" />
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MyFirebaseInstanceIDService.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MyFirebaseMessagingService.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/NotifyService.java" />
+>>>>>>> Stashed changes
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider editor-type-id="android-manifest">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2123">
@@ -3508,6 +3981,212 @@
           <folding>
             <element signature="e#19069#19070#0" expanded="true" />
             <element signature="e#19104#19105#0" expanded="true" />
+=======
+    <entry file="file://$PROJECT_DIR$/app/ah-bot-firebase-adminsdk-dcpkd-2236e02b6c.json" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/FireStore/Notification.java" />
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.guava/guava/20.0/9c8493c7991464839b612d7547d6c263adf08f75/guava-20.0-sources.jar!/com/google/common/base/Preconditions.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15480">
+          <caret line="788" column="0" lean-forward="false" selection-start-line="788" selection-start-column="0" selection-end-line="788" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.0.2.aar/ec7c097a55c222136017bcb15621b39c/jars/classes.jar!/com/google/firebase/firestore/b/zzx.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="46" column="0" lean-forward="false" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding>
+            <marker date="1530541076809" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1530541076809" expanded="false" signature="155:475" ph="..." />
+            <marker date="1530541076809" expanded="true" signature="935:1113" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="1287:1444" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="1472:1483" ph=" { " />
+            <marker date="1530541076809" expanded="true" signature="1499:1505" ph=" }" />
+            <marker date="1530541076809" expanded="true" signature="1538:1633" ph="{...}" />
+            <marker date="1530541076809" expanded="false" signature="1667:1678" ph=" { " />
+            <marker date="1530541076809" expanded="false" signature="1694:1700" ph=" }" />
+            <marker date="1530541076809" expanded="true" signature="1730:1866" ph="{...}" />
+            <marker date="1530541076809" expanded="false" signature="1898:1909" ph=" { " />
+            <marker date="1530541076809" expanded="false" signature="1932:1938" ph=" }" />
+            <marker date="1530541076809" expanded="false" signature="2012:2023" ph=" { " />
+            <marker date="1530541076809" expanded="false" signature="2039:2045" ph=" }" />
+            <marker date="1530541076809" expanded="false" signature="2119:2130" ph=" { " />
+            <marker date="1530541076809" expanded="false" signature="2146:2152" ph=" }" />
+            <marker date="1530541076809" expanded="false" signature="2180:2191" ph=" { " />
+            <marker date="1530541076809" expanded="false" signature="2253:2259" ph=" }" />
+            <marker date="1530541076809" expanded="true" signature="2302:2604" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="2641:3430" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="3467:4114" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="4152:4239" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="4308:4395" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="4464:4551" ph="{...}" />
+            <marker date="1530541076809" expanded="false" signature="4585:4596" ph=" { " />
+            <marker date="1530541076809" expanded="false" signature="4612:4618" ph=" }" />
+            <marker date="1530541076809" expanded="true" signature="4653:5967" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="6008:7401" ph="{...}" />
+            <marker date="1530541076809" expanded="false" signature="7441:7452" ph=" { " />
+            <marker date="1530541076809" expanded="false" signature="7483:7489" ph=" }" />
+            <marker date="1530541076809" expanded="true" signature="7521:8483" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="8527:9580" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="9614:9967" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="10004:10823" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="10836:11061" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="11111:11642" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="11179:11636" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.0.2.aar/ec7c097a55c222136017bcb15621b39c/jars/classes.jar!/com/google/firebase/firestore/d/zzl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1530541076809" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1530541076809" expanded="false" signature="155:228" ph="..." />
+            <marker date="1530541076809" expanded="false" signature="375:386" ph=" { " />
+            <marker date="1530541076809" expanded="false" signature="398:404" ph=" }" />
+            <marker date="1530541076809" expanded="false" signature="450:461" ph=" { " />
+            <marker date="1530541076809" expanded="false" signature="505:511" ph=" }" />
+            <marker date="1530541076809" expanded="true" signature="552:1123" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="1155:1446" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/firebase-firestore-17.0.2.aar/ec7c097a55c222136017bcb15621b39c/jars/classes.jar!/com/google/firebase/firestore/CollectionReference.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="640">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding>
+            <marker date="1530541076809" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1530541076809" expanded="false" signature="153:551" ph="..." />
+            <marker date="1530541076809" expanded="true" signature="665:939" ph="{...}" />
+            <marker date="1530541076809" expanded="false" signature="979:990" ph=" { " />
+            <marker date="1530541076809" expanded="false" signature="1018:1024" ph=" }" />
+            <marker date="1530541076809" expanded="true" signature="1081:1219" ph="{...}" />
+            <marker date="1530541076809" expanded="false" signature="1261:1272" ph=" { " />
+            <marker date="1530541076809" expanded="false" signature="1300:1306" ph=" }" />
+            <marker date="1530541076809" expanded="false" signature="1360:1371" ph=" { " />
+            <marker date="1530541076809" expanded="false" signature="1403:1409" ph=" }" />
+            <marker date="1530541076809" expanded="true" signature="1492:1693" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="1782:1986" ph="{...}" />
+            <marker date="1530541076809" expanded="true" signature="2062:2128" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/play-services-tasks-15.0.1.aar/93938b8d7a4068c40e3d89d61e6624c4/jars/classes.jar!/com/google/android/gms/tasks/zzu.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1880">
+          <caret line="112" column="86" lean-forward="false" selection-start-line="112" selection-start-column="86" selection-end-line="112" selection-end-column="86" />
+          <folding>
+            <marker date="1530179696063" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1530179696063" expanded="false" signature="152:754" ph="..." />
+            <marker date="1530179696063" expanded="true" signature="1103:1110" ph="{}" />
+            <marker date="1530179696063" expanded="true" signature="1150:1267" ph="{...}" />
+            <marker date="1530179696063" expanded="false" signature="1306:1317" ph=" { " />
+            <marker date="1530179696063" expanded="false" signature="1334:1340" ph=" }" />
+            <marker date="1530179696063" expanded="true" signature="1382:1535" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="1574:1883" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="1975:2394" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="2452:2569" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="2686:2768" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="2909:3003" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="3144:3321" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="3421:3503" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="3627:3721" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="3845:4022" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="4133:4216" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="4351:4445" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="4580:4757" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="4908:4982" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="5157:5287" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="5448:5526" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="5628:5711" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="5837:5931" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="6057:6234" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="6419:6549" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="6714:6844" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="7003:7078" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="7126:7330" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="7384:7659" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="7721:7997" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="8065:8412" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="8446:8720" ph="{...}" />
+            <marker date="1530179696063" expanded="false" signature="8775:8786" ph=" { " />
+            <marker date="1530179696063" expanded="false" signature="8851:8857" ph=" }" />
+            <marker date="1530179696063" expanded="false" signature="8912:8923" ph=" { " />
+            <marker date="1530179696063" expanded="false" signature="8989:8995" ph=" }" />
+            <marker date="1530179696063" expanded="true" signature="9051:9167" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="9199:9385" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="9442:10699" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="9569:9851" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="9897:10010" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="10059:10216" ph="{...}" />
+            <marker date="1530179696063" expanded="true" signature="10267:10693" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/FireStore/NotificationFireStore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="20" column="5" lean-forward="false" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/AlarmReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/WakefulReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/BootReceiver.java" />
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MyNotificationPublisher.java" />
+    <entry file="file://$PROJECT_DIR$/app/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="409">
+          <caret line="45" column="40" lean-forward="false" selection-start-line="45" selection-start-column="40" selection-end-line="45" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/Medicine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/FireStore/FirestoreHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="126" column="41" lean-forward="false" selection-start-line="126" selection-start-column="41" selection-end-line="126" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/ScanActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="105" column="42" lean-forward="false" selection-start-line="101" selection-start-column="19" selection-end-line="105" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/xy/computer/ahbot_robot/MainActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-240">
+          <caret line="473" column="50" lean-forward="false" selection-start-line="473" selection-start-column="50" selection-end-line="473" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#17627#17628#0" expanded="true" />
+            <element signature="e#17662#17663#0" expanded="true" />
+>>>>>>> Stashed changes
           </folding>
         </state>
       </provider>

@@ -1,7 +1,7 @@
-#Wed Jul 04 14:38:54 GMT+08:00 2018
-base.0=C\:\\Users\\clair\\OneDrive\\Documents\\YR 2 SEM1\\splash\\AhBotRobot\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\71
+#Thu Jul 05 11:57:46 SGT 2018
+base.0=D\:\\user\\Android_Studio_Stuff\\AhBot_Robot\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=C\:\\Users\\clair\\OneDrive\\Documents\\YR 2 SEM1\\splash\\AhBotRobot\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\72
+base.1=D\:\\user\\Android_Studio_Stuff\\AhBot_Robot\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\1

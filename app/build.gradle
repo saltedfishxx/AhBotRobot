@@ -37,14 +37,15 @@ dependencies {
     implementation 'com.felipecsl:gifimageview:2.1.0'
     //firebase dependencies
 
-    implementation 'com.google.firebase:firebase-core:16.0.1'
-    implementation 'com.google.firebase:firebase-auth:16.0.2'
-    implementation 'com.google.android.gms:play-services-vision:15.0.2'
-    implementation 'com.google.android.gms:play-services-auth:15.0.1'
-    implementation 'com.google.firebase:firebase-messaging:17.1.0'
-    implementation 'com.google.firebase:firebase-database:16.0.1'
-    implementation 'com.google.firebase:firebase-firestore:17.0.2'
+    implementation 'com.google.firebase:firebase-core:15.0.2'
+    implementation "com.google.firebase:firebase-auth:15.0.0"
+    implementation "com.google.firebase:firebase-database:15.0.0"
+    implementation "com.google.firebase:firebase-firestore:15.0.0"
+    implementation "com.google.firebase:firebase-messaging:15.0.2"
+    implementation "com.google.firebase:firebase-storage:15.0.2"
 
+    implementation 'com.google.zxing:core:3.3.2'
+    implementation 'com.journeyapps:zxing-android-embedded:3.6.0'
 
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
