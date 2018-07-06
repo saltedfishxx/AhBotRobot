@@ -46,7 +46,6 @@ import com.felipecsl.gifimageview.library.GifImageView;
 import com.google.android.gms.common.util.IOUtils;
 import com.google.firebase.FirebaseApp;
 import com.google.firebase.FirebaseOptions;
-import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.messaging.FirebaseMessaging;
 
 import com.google.firebase.messaging.RemoteMessage;
@@ -101,6 +100,7 @@ public class MainActivity extends AppCompatActivity {
     NotificationFireStore ndb;
     List<Medicine> medicines = new ArrayList<>();
     Date date;
+    static MediaPlayer mediaPlayer;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -109,7 +109,7 @@ public class MainActivity extends AppCompatActivity {
 
         String[] PERMISSIONS = {Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE, Manifest.permission.RECORD_AUDIO, Manifest.permission.CAMERA};
 
-        if(!hasPermissions(this, PERMISSIONS)){
+        if (!hasPermissions(this, PERMISSIONS)) {
             ActivityCompat.requestPermissions(this, PERMISSIONS, PERMISSION_ALL);
         }
         db = new FirestoreHelper(this);
@@ -119,12 +119,12 @@ public class MainActivity extends AppCompatActivity {
         gifImageView = (GifImageView) findViewById(R.id.splash);
 
         //Set GifImageView resource
-        try{
+        try {
             InputStream inputStream = getAssets().open("giphy.gif");
             byte[] bytes = IOUtils.toByteArray(inputStream);
             gifImageView.setBytes(bytes);
             gifImageView.startAnimation();
-        }catch(IOException ex){
+        } catch (IOException ex) {
 
         }
 
@@ -224,6 +224,7 @@ public class MainActivity extends AppCompatActivity {
                     startNlu("Please try again");
                 } else {
                     String text = texts.get(0);
+                    Log.d("Full Results ", texts.get(0));
                     startNlu(text);
                 }
             }
@@ -231,6 +232,8 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onPartialResults(Bundle partialResults) {
 
+                List<String> texts = partialResults.getStringArrayList(SpeechRecognizer.RESULTS_RECOGNITION);
+                Log.d("Partial Results ", texts.get(0));
             }
 
             @Override
@@ -251,6 +254,7 @@ public class MainActivity extends AppCompatActivity {
                 recognizerIntent.putExtra(RecognizerIntent.EXTRA_CALLING_PACKAGE, getPackageName());
                 recognizerIntent.putExtra(RecognizerIntent.EXTRA_LANGUAGE_MODEL, RecognizerIntent.LANGUAGE_MODEL_WEB_SEARCH);
                 recognizerIntent.putExtra(RecognizerIntent.EXTRA_MAX_RESULTS, 3);
+                recognizerIntent.putExtra(RecognizerIntent.EXTRA_PARTIAL_RESULTS, true);
 
                 // Stop hotword detection in case it is still running
                 shouldDetect = false;
@@ -321,22 +325,22 @@ public class MainActivity extends AppCompatActivity {
                         responseText = showMedicine();
                     } else if (speech.equalsIgnoreCase("okay")) {
                         responseText = scanQRcode();
-                    }else if(speech.equalsIgnoreCase("playing music")){
-                        shouldDetect=false;
-                        responseText=speech;
-                        startService(new Intent(MainActivity.this,BackGroundMusic.class));
-                    }else if (speech.equalsIgnoreCase("recipe_notification")){
+                    } else if (speech.equalsIgnoreCase("playing music")) {
+                        shouldDetect = false;
+                        responseText = speech;
+                        startService(new Intent(MainActivity.this, BackGroundMusic.class));
+                    } else if (speech.equalsIgnoreCase("recipe_notification")) {
                         responseText = sendRecipeNoti();
-                    }else if (speech.equalsIgnoreCase("add_function")){
+                    } else if (speech.equalsIgnoreCase("add_function")) {
                         aiRequest.setQuery("my email is vic2@mail.com");
-                        try{
+                        try {
                             aiResponse = aiDataService.request(aiRequest); // need exception because internet might not work --> Alt + Enter
 
                             result = aiResponse.getResult();
                             fulfillment = result.getFulfillment();
                             speech = fulfillment.getSpeech();
                             Log.d("email", speech);
-                        }catch (AIServiceException e) {
+                        } catch (AIServiceException e) {
                             e.printStackTrace();
                         }
                         responseText = speech;
@@ -391,31 +395,47 @@ public class MainActivity extends AppCompatActivity {
                     Log.e("hotword", "audio record fail to initialize");
                     return;
                 }
-                MediaPlayer player = MediaPlayer.create(getApplicationContext(),Settings.System.DEFAULT_NOTIFICATION_URI);
-                audioRecord.startRecording();
-                Log.d("hotword", "start listening to hotword");
+                // MediaPlayer player = MediaPlayer.create(getApplicationContext(),Settings.System.DEFAULT_NOTIFICATION_URI);
+                if (mediaPlayer != null && mediaPlayer.isPlaying()) {
 
+                    shouldDetect = false;
+
+                } else if (mediaPlayer !=null && !mediaPlayer.isPlaying()) {
+                    shouldDetect = true;
+                    audioRecord.startRecording();
+                }else{
+                    audioRecord.startRecording();
+                }
+
+                Log.d("hotword", "start listening to hotword");
                 while (shouldDetect) {
                     audioRecord.read(audioBuffer, 0, audioBuffer.length);
 
                     short[] shortArray = new short[audioBuffer.length / 2];
                     ByteBuffer.wrap(audioBuffer).order(ByteOrder.LITTLE_ENDIAN).asShortBuffer().get(shortArray);
-
                     int result = snowboyDetect.runDetection(shortArray, shortArray.length);
                     if (result > 0) {
                         Log.d("hotword", "detected");
                         shouldDetect = false;
-                        player.start();
+                        //player.start();
                     }
+
+
                 }
 
                 audioRecord.stop();
                 audioRecord.release();
-                player.release();
                 Log.d("hotword", "stop listening to hotword");
 
                 // TODO: Add action after hotword is detected
-                startAsr();
+                if (mediaPlayer != null && mediaPlayer.isPlaying()) {
+
+                } else{
+                    shouldDetect = true;
+                    startAsr();
+                }
+
+
             }
         };
         Threadings.runInBackgroundThread(runnable);
@@ -462,7 +482,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    public String scanQRcode(){
+    public String scanQRcode() {
         final Activity activity = this;
         IntentIntegrator integrator = new IntentIntegrator(activity);
         integrator.setDesiredBarcodeFormats(IntentIntegrator.QR_CODE);
@@ -477,25 +497,25 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
 
-        IntentResult result = IntentIntegrator.parseActivityResult(requestCode,resultCode,data);
-        if(result!=null){
-            if(result.getContents()==null){
-               Log.d("note","Scanning cancelled");
-            }else {
+        IntentResult result = IntentIntegrator.parseActivityResult(requestCode, resultCode, data);
+        if (result != null) {
+            if (result.getContents() == null) {
+                Log.d("note", "Scanning cancelled");
+            } else {
                 String content = result.getContents();
                 String[] array = content.split("_");
-                String id="";
+                String id = "";
                 Medicine medicine = new Medicine(id, array[0], array[1], array[2], array[3]);
 
                 db.saveData(medicine);
 
             }
-        }else {
-            super.onActivityResult(requestCode,resultCode,data);
+        } else {
+            super.onActivityResult(requestCode, resultCode, data);
         }
     }
 
-    public String sendRecipeNoti(){
+    public String sendRecipeNoti() {
         ndb.saveData("Check your recipe here now!");
 
         return "I have send a signal to your phone. Open the application, to view the latest healthy recipes.";
@@ -566,10 +586,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public static class BackGroundMusic extends Service {
-        MediaPlayer mediaPlayer;
         AudioManager audioManager;
         int Volume;
-        public BackGroundMusic(){}
+
+        public BackGroundMusic() {
+        }
 
         @Nullable
         @Override
@@ -580,9 +601,9 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public int onStartCommand(Intent intent, int flags, int startId) {
 
-            Random random=new Random();
-            int id= (random.nextInt(5)+1);
-            switch (id){
+            Random random = new Random();
+            int id = (random.nextInt(5) + 1);
+            switch (id) {
                 case 1:
                     mediaPlayer = MediaPlayer.create(this, R.raw.tune1);
                     break;
@@ -607,6 +628,8 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public boolean stopService(Intent name) {
 
+            mediaPlayer.stop();
+            mediaPlayer.release();
             return super.stopService(name);
         }
 

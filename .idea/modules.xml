@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/AhBotRobot.iml" filepath="$PROJECT_DIR$/AhBotRobot.iml" />
       <module fileurl="file://$PROJECT_DIR$/AhBot_Robot.iml" filepath="$PROJECT_DIR$/AhBot_Robot.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

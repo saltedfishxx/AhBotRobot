@@ -186,23 +186,6 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-17.1.0.aar\\8d738f5aa01585ebe7ae5254d77b5e10\\res\\values\\values.xml",
-                    "from": {
-                        "startLines": "4",
-                        "startColumns": "0",
-                        "startOffsets": "176",
-                        "endColumns": "77",
-                        "endOffsets": "253"
-                    },
-                    "to": {
-                        "startLines": "886",
-                        "startColumns": "4",
-                        "startOffsets": "72724",
-                        "endColumns": "81",
-                        "endOffsets": "72801"
-                    }
-                },
-                {
                     "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-27.1.1.aar\\eec00c56a931e6117876731dd543d153\\res\\values\\values.xml",
                     "from": {
                         "startLines": "2,6,7,8,9,10",
@@ -270,6 +253,23 @@
                         "endLines": "2,10,11,12,13,14,20,23,24,25,28,29,32,35,36,37,38,39,42,45,46,47,48,53,56,59,60,61,66,67,68,71,74,75,78,81,84,87,88,91,94,95,100,101,106,109,112,113,114,115,116,117,118,119,120,121,129",
                         "endColumns": "60,11,47,51,60,45,11,60,59,69,11,67,11,11,61,64,67,66,11,11,66,64,64,11,11,11,65,66,11,68,65,11,11,66,11,11,11,11,64,11,11,64,11,66,11,11,11,64,61,61,61,58,59,60,60,58,11",
                         "endOffsets": "206,497,545,597,658,704,947,1102,1162,1232,1365,1433,1562,1688,1750,1815,1883,1950,2073,2198,2265,2330,2395,2576,2697,2818,2884,2951,3161,3230,3296,3421,3547,3614,3740,3867,3992,4119,4184,4310,4433,4498,4706,4773,4953,5073,5193,5258,5320,5382,5444,5503,5563,5624,5685,5744,6084"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\user\\.gradle\\caches\\transforms-1\\files-1.1\\firebase-messaging-15.0.2.aar\\d3535e3bc708836fab8c407d8d36a42d\\res\\values\\values.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "0",
+                        "startOffsets": "176",
+                        "endColumns": "77",
+                        "endOffsets": "253"
+                    },
+                    "to": {
+                        "startLines": "886",
+                        "startColumns": "4",
+                        "startOffsets": "72724",
+                        "endColumns": "81",
+                        "endOffsets": "72801"
                     }
                 },
                 {

@@ -1,0 +1,196 @@
+[debug] [2018-07-06T13:36:40.447Z] ----------------------------------------------------------------------
+[debug] [2018-07-06T13:36:40.463Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\user\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase deploy
+[debug] [2018-07-06T13:36:40.463Z] CLI Version:   3.19.1
+[debug] [2018-07-06T13:36:40.463Z] Platform:      win32
+[debug] [2018-07-06T13:36:40.463Z] Node Version:  v8.11.3
+[debug] [2018-07-06T13:36:40.463Z] Time:          Fri Jul 06 2018 21:36:40 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:40.463Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-07-06T13:36:42.070Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-07-06T13:36:42.070Z] > authorizing via signed-in user
+[debug] [2018-07-06T13:36:42.070Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-07-06T13:36:42.070Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/eXGJ9pFTWRe0FK-hIT7V5Lct8DGBbsoFCoK0011iv_qTgEv_kjM3TI7eZd1MmH47',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Jul 06 2018 21:36:42 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:42.163Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:36:42.179Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/ah-bot  
+  
+ Fri Jul 06 2018 21:36:42 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:43.253Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:36:43.253Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/ah-bot/tokens  
+  
+ Fri Jul 06 2018 21:36:43 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:44.129Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'ah-bot'...
+[info] 
+[info] i  deploying functions
+[debug] [2018-07-06T13:36:50.297Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "serve": "firebase serve --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "dependencies": {
+    "firebase-admin": "~5.12.1",
+    "firebase-functions": "^1.0.3"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2018-07-06T13:36:50.297Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/ah-bot?view=CONSUMER_VIEW  
+  
+ Fri Jul 06 2018 21:36:50 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:50.297Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/ah-bot?view=CONSUMER_VIEW  
+  
+ Fri Jul 06 2018 21:36:50 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:51.976Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:36:51.991Z] <<< HTTP RESPONSE 200
+[info] +  functions: all necessary APIs are enabled
+[debug] [2018-07-06T13:36:52.007Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/ah-bot  
+  
+ Fri Jul 06 2018 21:36:52 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:53.243Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:36:53.243Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/1017446431793:getServerAppConfig  
+  
+ Fri Jul 06 2018 21:36:53 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:53.820Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing functions directory for uploading...
+[debug] [2018-07-06T13:36:53.820Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/ah-bot/configs  
+  
+ Fri Jul 06 2018 21:36:53 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:54.152Z] <<< HTTP RESPONSE 200
+[info] i  functions: packaged functions (44.65 KB) for uploading
+[debug] [2018-07-06T13:36:55.223Z] >>> HTTP REQUEST POST https://cloudfunctions.googleapis.com/v1/projects/ah-bot/locations/us-central1/functions:generateUploadUrl  
+  
+ Fri Jul 06 2018 21:36:55 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:55.992Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:36:55.992Z] >>> HTTP REQUEST PUT https://storage.googleapis.com/gcf-upload-us-central1-65c69815-ab37-4f24-988d-7c08831a1520/d0505bd1-8f3a-4053-9d44-9b07de69e0c6.zip?GoogleAccessId=service-1017446431793@gcf-admin-robot.iam.gserviceaccount.com&Expires=1530886017&Signature=OXm6QgMUe4CQLgyo3qh%2Fz6tdg708xEh0wnA3U%2Fy%2B6j%2BmSjz3P1w0jUUGRErAt8e0URTmYhic%2Fg%2FAnwLZaYs1miQBS7ZcOex43tfxY3ArsXo%2BSsRE8PAxBau2uME6rIuxAKnUe3tdkfms%2FI1wRkPxKcvbAtkwNvF7vnYDsw3pRhVmFiPvEY%2BW0zgraq0O7EHZyzDrhxj6lQhAJQCQxvHOoF9c2JI6InaD3gU8nuSlMuALNdloHi3e0e4mHKK0%2BwhXr2uzff06ZVbvKYRRofYkQ3Sr9dNM44rarJwDC730IMchjAE0HYr%2FXfbLjtARm%2BG2OAXD3emaLkmRLxhwmquo6Q%3D%3D  
+ ReadStream {
+  _readableState: 
+   ReadableState {
+     objectMode: false,
+     highWaterMark: 65536,
+     buffer: BufferList { head: [Object], tail: [Object], length: 1 },
+     length: 45722,
+     pipes: null,
+     pipesCount: 0,
+     flowing: null,
+     ended: true,
+     endEmitted: false,
+     reading: false,
+     sync: false,
+     needReadable: false,
+     emittedReadable: true,
+     readableListening: false,
+     resumeScheduled: false,
+     destroyed: false,
+     defaultEncoding: 'utf8',
+     awaitDrain: 0,
+     readingMore: false,
+     decoder: null,
+     encoding: null },
+  readable: true,
+  domain: null,
+  _events: { end: [Function] },
+  _eventsCount: 1,
+  _maxListeners: undefined,
+  path: 'C:\\Users\\user\\AppData\\Local\\Temp\\firebase-functions-10708x4r3fekxrzna.zip',
+  fd: 5,
+  flags: 'r',
+  mode: 438,
+  start: undefined,
+  end: Infinity,
+  autoClose: true,
+  pos: undefined,
+  bytesRead: 45722 } 
+ Fri Jul 06 2018 21:36:55 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:56.679Z] <<< HTTP RESPONSE 200
+[info] +  functions: functions folder uploaded successfully
+[debug] [2018-07-06T13:36:56.679Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/ah-bot/locations/us-central1/functions  
+  
+ Fri Jul 06 2018 21:36:56 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:57.282Z] <<< HTTP RESPONSE 200
+[info] i  functions: updating function sendFoodNotification...
+[debug] [2018-07-06T13:36:57.297Z] Trigger is:  {"eventTrigger":{"resource":"projects/ah-bot/databases/(default)/documents/NotificationList/{foodrecipes}","eventType":"providers/cloud.firestore/eventTypes/document.create","service":"firestore.googleapis.com"}}
+[info] i  functions: updating function webhook...
+[debug] [2018-07-06T13:36:57.297Z] Trigger is:  {"httpsTrigger":{}}
+[debug] [2018-07-06T13:36:57.297Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/ah-bot/locations/us-central1/functions/sendFoodNotification 
+query params: {"updateMask":"sourceUploadUrl,name,labels,eventTrigger.resource,eventTrigger.eventType,eventTrigger.service"} 
+ { sourceUploadUrl: 'https://storage.googleapis.com/gcf-upload-us-central1-65c69815-ab37-4f24-988d-7c08831a1520/d0505bd1-8f3a-4053-9d44-9b07de69e0c6.zip?GoogleAccessId=service-1017446431793@gcf-admin-robot.iam.gserviceaccount.com&Expires=1530886017&Signature=OXm6QgMUe4CQLgyo3qh%2Fz6tdg708xEh0wnA3U%2Fy%2B6j%2BmSjz3P1w0jUUGRErAt8e0URTmYhic%2Fg%2FAnwLZaYs1miQBS7ZcOex43tfxY3ArsXo%2BSsRE8PAxBau2uME6rIuxAKnUe3tdkfms%2FI1wRkPxKcvbAtkwNvF7vnYDsw3pRhVmFiPvEY%2BW0zgraq0O7EHZyzDrhxj6lQhAJQCQxvHOoF9c2JI6InaD3gU8nuSlMuALNdloHi3e0e4mHKK0%2BwhXr2uzff06ZVbvKYRRofYkQ3Sr9dNM44rarJwDC730IMchjAE0HYr%2FXfbLjtARm%2BG2OAXD3emaLkmRLxhwmquo6Q%3D%3D',
+  name: 'projects/ah-bot/locations/us-central1/functions/sendFoodNotification',
+  labels: { 'deployment-tool': 'cli-firebase' },
+  eventTrigger: 
+   { resource: 'projects/ah-bot/databases/(default)/documents/NotificationList/{foodrecipes}',
+     eventType: 'providers/cloud.firestore/eventTypes/document.create',
+     service: 'firestore.googleapis.com' } } 
+ Fri Jul 06 2018 21:36:57 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:57.297Z] >>> HTTP REQUEST PATCH https://cloudfunctions.googleapis.com/v1/projects/ah-bot/locations/us-central1/functions/webhook 
+query params: {"updateMask":"sourceUploadUrl,name,labels,httpsTrigger"} 
+ { sourceUploadUrl: 'https://storage.googleapis.com/gcf-upload-us-central1-65c69815-ab37-4f24-988d-7c08831a1520/d0505bd1-8f3a-4053-9d44-9b07de69e0c6.zip?GoogleAccessId=service-1017446431793@gcf-admin-robot.iam.gserviceaccount.com&Expires=1530886017&Signature=OXm6QgMUe4CQLgyo3qh%2Fz6tdg708xEh0wnA3U%2Fy%2B6j%2BmSjz3P1w0jUUGRErAt8e0URTmYhic%2Fg%2FAnwLZaYs1miQBS7ZcOex43tfxY3ArsXo%2BSsRE8PAxBau2uME6rIuxAKnUe3tdkfms%2FI1wRkPxKcvbAtkwNvF7vnYDsw3pRhVmFiPvEY%2BW0zgraq0O7EHZyzDrhxj6lQhAJQCQxvHOoF9c2JI6InaD3gU8nuSlMuALNdloHi3e0e4mHKK0%2BwhXr2uzff06ZVbvKYRRofYkQ3Sr9dNM44rarJwDC730IMchjAE0HYr%2FXfbLjtARm%2BG2OAXD3emaLkmRLxhwmquo6Q%3D%3D',
+  name: 'projects/ah-bot/locations/us-central1/functions/webhook',
+  labels: { 'deployment-tool': 'cli-firebase' },
+  httpsTrigger: {} } 
+ Fri Jul 06 2018 21:36:57 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:57.947Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:36:57.978Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:36:57.978Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/projects/ah-bot/locations/us-central1/functions  
+  
+ Fri Jul 06 2018 21:36:57 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:58.588Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:36:58.588Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YWgtYm90L3VzLWNlbnRyYWwxL3NlbmRGb29kTm90aWZpY2F0aW9uL3lDVkhmbVVwbEtV  
+  
+ Fri Jul 06 2018 21:36:58 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:58.588Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YWgtYm90L3VzLWNlbnRyYWwxL3dlYmhvb2svVmRwU25sYjZkZjg  
+  
+ Fri Jul 06 2018 21:36:58 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:36:58.882Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:36:59.179Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:37:00.884Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YWgtYm90L3VzLWNlbnRyYWwxL3NlbmRGb29kTm90aWZpY2F0aW9uL3lDVkhmbVVwbEtV  
+  
+ Fri Jul 06 2018 21:37:00 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:37:01.182Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YWgtYm90L3VzLWNlbnRyYWwxL3dlYmhvb2svVmRwU25sYjZkZjg  
+  
+ Fri Jul 06 2018 21:37:01 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:37:01.448Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:37:01.758Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:37:03.463Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YWgtYm90L3VzLWNlbnRyYWwxL3NlbmRGb29kTm90aWZpY2F0aW9uL3lDVkhmbVVwbEtV  
+  
+ Fri Jul 06 2018 21:37:03 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:37:03.774Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YWgtYm90L3VzLWNlbnRyYWwxL3dlYmhvb2svVmRwU25sYjZkZjg  
+  
+ Fri Jul 06 2018 21:37:03 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:37:04.048Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:37:04.344Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:37:06.055Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YWgtYm90L3VzLWNlbnRyYWwxL3NlbmRGb29kTm90aWZpY2F0aW9uL3lDVkhmbVVwbEtV  
+  
+ Fri Jul 06 2018 21:37:06 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:37:06.352Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YWgtYm90L3VzLWNlbnRyYWwxL3dlYmhvb2svVmRwU25sYjZkZjg  
+  
+ Fri Jul 06 2018 21:37:06 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:37:06.634Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:37:06.931Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:37:08.649Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YWgtYm90L3VzLWNlbnRyYWwxL3NlbmRGb29kTm90aWZpY2F0aW9uL3lDVkhmbVVwbEtV  
+  
+ Fri Jul 06 2018 21:37:08 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:37:08.946Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YWgtYm90L3VzLWNlbnRyYWwxL3dlYmhvb2svVmRwU25sYjZkZjg  
+  
+ Fri Jul 06 2018 21:37:08 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:37:09.243Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:37:09.383Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:37:11.254Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YWgtYm90L3VzLWNlbnRyYWwxL3NlbmRGb29kTm90aWZpY2F0aW9uL3lDVkhmbVVwbEtV  
+  
+ Fri Jul 06 2018 21:37:11 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:37:11.399Z] >>> HTTP REQUEST GET https://cloudfunctions.googleapis.com/v1/operations/YWgtYm90L3VzLWNlbnRyYWwxL3dlYmhvb2svVmRwU25sYjZkZjg  
+  
+ Fri Jul 06 2018 21:37:11 GMT+0800 (Malay Peninsula Standard Time)
+[debug] [2018-07-06T13:37:11.821Z] <<< HTTP RESPONSE 200
+[debug] [2018-07-06T13:37:11.977Z] <<< HTTP RESPONSE 200
